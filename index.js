@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import CapeVillaVista from './CapeVillaVista';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<CapeVillaVista />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
